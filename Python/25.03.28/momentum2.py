@@ -167,6 +167,7 @@ def create_trading(_df, _codes):
                 buy_phase = False
     return book
 
+
 # 수익률을 계산하는 함수
 
 
