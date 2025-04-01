@@ -6,6 +6,15 @@
     <title>event test1</title>
     {% include 'ga.html' %}
     <script>
+        // web 접속 이벤트 하나 생성
+        // 구글애널리틱스에 데이터를 보낸다.
+        gtag(
+            'event',
+            'visit_index',
+            {
+                test_arg : 'test'
+            }
+        )
         function selected(_select){
             // _select가 1이면 짜장면
             if (_select == 1){

@@ -25,4 +25,4 @@ def shop():
     return render_template('shop.html',
                            price = item_cnt * item_price)
 
-app.run()
+app.run(debug=True)
