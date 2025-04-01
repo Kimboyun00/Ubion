@@ -3,3 +3,7 @@ csv/
 OT/
 test_csv/
 .env
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
